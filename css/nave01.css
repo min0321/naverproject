@@ -1,0 +1,1591 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+#container {
+    width: 100%;
+
+    margin: auto;
+}
+
+#header {
+    width: 1150px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer {
+    margin-top: 50px;
+    background-color: ##fafbfc;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+#main_left {
+    width: 800px;
+    height: 1750px;
+    float: left;
+    overflow: hidden;
+}
+
+#main_right {
+    width: 350px;
+    float: right;
+}
+
+#box {
+    display: block;
+    width: 317px;
+    height: 100px;
+    border: 1px solid #dae1e6;
+    background-color: #f7f9fa;
+    padding: 16px 16px 12px 17px;
+    position: relative;
+
+}
+
+p.login_msg {
+    padding: 0px 0px 5px 5px;
+    color: grey;
+    font-size: 12px;
+
+}
+
+
+#box2 {
+    display: inline-block;
+    width: 315px;
+    height: 48px;
+    background: #19CE60;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+#a,
+#c,
+#d,
+#g,
+#h,
+
+#qqq,
+#ppp {
+    background: url(../img/naver_all.png);
+    background-size: 440px 410px;
+
+}
+
+#zzz,
+#o,
+#boxl,
+#boxe,
+#boxx,
+#boxz,
+#boxxx,
+#boxzz,
+#boxuu,
+#boxee {
+    background: url(../img/naver_all_2.png);
+    background-size: 107px 78px;
+}
+
+#boxl {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -57px -54px;
+    background-color;
+    black;
+    position: relative;
+    left: 13px;
+    top: 5px;
+
+}
+
+#boxxx {
+
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -71px -54px;
+    position: relative;
+    left: 14px;
+    top: 6px;
+}
+
+#boxzz {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -57px -54px;
+    position: relative;
+    left: 12px;
+    top: 4px;
+
+}
+
+
+
+#boxuu {
+
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -57px -54px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+
+}
+
+#boxee {
+
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -71px -54px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+
+}
+
+#box8 #boxl {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -57px -54px;
+
+}
+
+#box8 #boxe {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -71px -54px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+
+}
+
+#boxx {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -71px -54px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+}
+
+#boxz {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -57px -54px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+
+
+}
+
+
+#box2 #a {
+    display: inline-block;
+    width: 60px;
+    height: 12px;
+    background-position: -271px -267px;
+}
+
+#box2 #b {
+    font-size: 15px;
+    color: white;
+    text-align: right;
+
+
+}
+
+
+#box3 {
+    display: block;
+    width: 328px;
+    height: 15px;
+    margin-top: 10px;
+    color: #404040;
+}
+
+#box3 #a {
+    display: inline-block;
+    width: 11px;
+    height: 13px;
+    background-position: -408px -55px;
+    float: left;
+    margin:0 0 0 2px;
+}
+
+#box3 #b {
+    display: inline-block;
+    width: 46px;
+    height: 16.5px;
+    word-spacing: 1px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+}
+
+#box3 #b1 {
+    display: inline-block;
+    width: 80px;
+    height: 16.5px;
+    word-spacing: 1px;
+    font-size: 12px;
+
+    float: left;
+}
+
+#box3 #b:after {
+    background-color: #d7dce0;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: top;
+    content: '';
+    margin: 0 0 0 3px;
+    vertical-align: 3px;
+}
+#box3 #c {
+    display: inline-block;
+    font-size: 12px;
+    width: 63px;
+    height: 15px;
+    float: right;
+    background-color: #f7f9fa;
+}
+
+#box3 #d {
+
+    display: inline-block;
+    width: 13px;
+    height: 11px;
+    background-position: -332px -308px;
+    float: right;
+    margin-right: 3px;
+
+
+}
+
+
+
+#box4 {
+    display: inline-block;
+    width: 350px;
+    height: 47px;
+    border: 1px solid #dae1e6;
+    padding: auto;
+    float: left;
+    margin: 30px 0 10px -18px;
+}
+#box4 #e {
+    display: inline-block;
+    width: 38.32px;
+    height: 21px;
+    border: 1px solid #202020;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 12px;
+    text-align: center;
+    line-height: 22px;
+}
+#box4 #e {
+    border-radius: 15px;
+}
+
+#box4 #f {
+    display: inline-block;
+    width: 180px;
+    height: 19px;
+    font-size: 12px;
+
+
+
+}
+
+#box4 #g {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dae1e6;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #ffffff;
+
+}
+
+#box4 #h {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dae1e6;
+    float: right;
+    margin-top: 10px;
+    background-color: #ffffff;
+
+}
+
+#box4 #qqq {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    background-position: -351px -296px;
+    margin: 0 0 0 10px;
+    position:relative;
+    right:4px;
+    top:5px;
+
+
+
+}
+
+#box4 #ppp {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    background-position: -335px -296px;
+    margin-left: 10px;
+    position:relative;
+    top:5px;
+    right:4px;
+}
+
+#box5 {
+    display: block;
+    width: 345px;
+    height: 200px;
+    border: 1px solid:#dae1e6;
+    margin-top: 12px;
+    margin-left: 2px;
+
+}
+
+#box5 img {
+    width: 351px;
+    height: 200px;
+    margin-left: -20px;
+
+}
+
+#box6 {
+    display: inline-block;
+    width: 345px;
+    height: 43px;
+    margin: 80px 0 0 -18px;
+
+}
+
+#box6 #i {
+    display: block;
+    float: right;
+    width: 31px;
+    height: 18px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 18px;
+    font-weight: 700;
+    position:relative;
+    top:6px;
+}
+
+
+
+#box6 #j {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 18px;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    line-height: 18px;
+    font-weight: 700;
+    position:relative;
+    top:6px;
+}
+
+
+
+
+#box6 #k {
+
+    display: block;
+    float: right;
+    font-size: 13px;
+    font: #03C75a;
+    width: 30px;
+    height: 18px;
+    margin-right: 14px;
+    border-bottom: 1px solid #dae1e6;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 9px;
+    color: #03C75A;
+    border-color: #19ce60;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    top:7px;
+}
+
+#box6 #zzz {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background-color: #000;
+    background-position: -26px -54px;
+    content: '';
+    margin-top: 19px;
+}
+
+#box6 #m {
+    display: block;
+    width: 65px;
+    height: 15px;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    margin-top: 17.3px;
+    margin-left:5px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+
+
+#box6 #o {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -43px -54px;
+    margin-top: 21.5px;
+    margin-left:4px;
+}
+
+#box7 {
+    display: block;
+    width: 338px;
+    height: 60px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    margin: 0 0 0 -18px;
+    padding: auto;
+    padding: 8px 0 0 10px;
+    border-bottom: 0;
+}
+
+#box7 #a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h,
+#i,
+#j,
+#k,
+#z {
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    height: 22.5px;
+    font-size: 12px;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    color: #202020;
+
+
+}
+
+#box8 {
+    display: block;
+    width: 348px;
+    height: 870px;
+    border: 1px solid #dae1e6;
+    border-bottom: hidden;
+    float: left;
+    margin: 0 0 10px -18px;
+    padding: auto;
+    position: relative;
+}
+
+#box8 #aa {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dae1e6;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+
+}
+
+#box8 #bb {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dae1e6;
+    float: right;
+    margin-top: 10px;
+
+}
+
+
+
+#box8 #cc {
+
+
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: right;
+    color: #808080;
+    margin-top: 18px;
+
+
+}
+
+#box8 #dd {
+
+
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: right;
+    color: #202020;
+    margin-top: 18px;
+    margin-left: 5px;
+
+}
+
+#box8 #ee {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+
+#box8 #ff {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 12px;
+    padding-left: 5px;
+
+}
+
+#box8 #gg {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+
+#box8 #zz {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: left;
+    margin-left: 4px;
+    font-size: 13px;
+        font-weight:700;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+#box8 #ii {
+    display: block;
+    width: 107.31px;
+    height: 16px;
+        font-weight:700;
+    float: left;
+    margin-left: 6px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+#box8 #jj {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-weight:700;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left: -5px;
+}
+
+#box8 #kk {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:-5px;
+}
+
+#box8 #ll {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    right:9px;
+}
+
+#box8 #mm {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    right:12px;
+}
+
+#box8 #nn {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+            font-weight:700;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #oo {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+
+#box8 #pp {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #qq {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+            font-weight:700;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:5px;
+}
+
+#box8 #rr {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+            font-weight:700;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    right:-2px;
+}
+
+#box8 #ss {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+    font-weight:700;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:-7px;
+}
+
+#box8 #tt {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:-7px;
+}
+
+#box8 #uu {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:-10px;
+
+}
+
+#box8 #vv {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:-7px;
+}
+
+#box8 #ww {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #xx {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: -5px;
+    position:relative;
+    left:5px;
+}
+
+#box8 #yy {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+    position:relative;
+    left: 5px;
+}
+
+#box8 #ab {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    font-weight:700;
+    float: left;
+    margin-left: 4px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:3px;
+
+}
+
+#box8 #ac {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+    font-weight:700;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    right:6px;
+}
+
+#box8 #ad {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    font-weight:700;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:5px;
+}
+
+#box8 #ae {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:3px;
+}
+
+#box8 #af {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:5px;
+
+}
+
+#box8 #ag {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+}
+
+#box8 #ah {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #ai {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #aj {
+    display: inline-block;
+    width: 108px;
+    height: 146px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#box8 #ak {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    font-weight:700;
+    margin-left: 4px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:2px;
+}
+
+#box8 #al {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+            font-weight:700;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    left:6px;
+}
+
+#box8 #am {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+            font-weight:700;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position:relative;
+    right:6px;
+}
+
+#box8 #an {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    margin-left: 4px;
+    font-size: 13px;
+    text-align: center;
+    position:relative;
+    left:3px;
+}
+
+#box8 #ao {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: center;
+    position:relative;
+    left:5px;
+}
+
+#box8 #ap {
+    display: inline-block;
+    width: 107.31px;
+    height: 16px;
+    float: right;
+    margin-right: 3px;
+    font-size: 13px;
+    text-align: center;
+    position:relative;
+    right: 7px;
+}
+
+#box8 #aq {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+
+    margin-top: 15px;
+    border: 1px solid #dae1e6;
+    float: left;
+    margin-left: 103px;
+
+
+}
+
+#box8 #ar {
+
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dae1e6;
+    float: right;
+    margin-top: 15px;
+    margin-right: 112px;
+    margin-bottom: 10px;
+
+}
+
+#box8 #as {
+
+    display: inline-block;
+    width: 6.72px;
+    height: 16px;
+    font-size: 13px;
+
+    float: left;
+    position: absolute;
+    top: 797px;
+    left: 155px
+}
+
+#box8 #at {
+    display: inline-block;
+    width: 53px;
+    height: 19px;
+    font-size: 13px;
+    color: #808080;
+    float: left;
+    position: absolute;
+    top: 797px;
+    left: 169px
+}
+
+#box8 img {
+    width: 108px;
+    height: 146px;
+    border: 1px solid #dae1e6;
+    padding: auto;
+}
+
+#box_list {
+    display: inline-block;
+    position: relative;
+    top: -221px;
+    height: 170px;
+
+}
+
+#box9 {
+    display: inline-block;
+    width: 348px;
+    height: 200px;
+    border: 1px solid #dae1e6;
+    margin: 10px 0 0 -1px;
+    border-top: hidden;
+    border-bottom: hidden;
+    float: left;
+}
+
+#box9 #aa {
+    display: inline-block;
+    width: 332px;
+    height: 200px;
+    border: 1px solid #dae1e6;
+    position: relative;
+    left: 8px;
+    bottom: 20px;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+#box9 #bb {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dae1e6;
+    position: absolute;
+    right: 7px;
+
+
+
+}
+
+#box9 #cc {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dae1e6;
+    position: absolute;
+    top: -8px;
+    right: 37px;
+}
+
+#box9 #dd {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    font-size: 13px;
+    color: #808080;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position: absolute;
+    top: -1px;
+    right: 61px;
+}
+
+#box9 #ee {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    font-size: 13px;
+    color: #404040;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    position: absolute;
+    top: -33px;
+    right: 73px;
+
+}
+
+#box9 #ff {
+    display: block;
+    width: 250px;
+    height: 29px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    position: relative;
+    top: 11px;
+    left:7px;
+
+}
+
+#box9 #hh {
+    display: block;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    position:relative;
+    left:16px;
+    top: 10px;
+}
+
+#box9 #ii1 {
+    display: block;
+    width: 140px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000;
+    position:relative;
+    top:10px;
+    right:26px;
+
+}
+
+#box9 #jj1 {
+    display: inline-block;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    color: #000000;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    position: absolute;
+    top:70px;
+    right: 199px;
+
+}
+
+#box9 #kk1 {
+    display: inline-block;
+    width: 160px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000;
+    position: absolute;
+    top:70px;
+    right: 82px;
+
+}
+
+#box9 #ll1 {
+    display: inline-block;
+    width: 130px;
+    font-weight: 700;
+        font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+        margin-left: 12px;
+    color: #000000;
+        margin-bottom: 5px;
+    position: absolute;
+    top:90px;
+    right: 189px;
+
+}
+
+#box9 #mm1 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    padding: 0;
+    position: absolute;
+    top:90px;
+    right: 80px;
+
+}
+
+#box9 #nn1 {
+    display: inline-block;
+    width: 130px;
+    font-weight: 700;
+     font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    padding: 0;
+    margin-bottom: 5px;
+    position: absolute;
+    top:110px;
+    right: 189px;
+}
+
+#box9 #oo1 {
+    display: inline-block;
+    width: 200px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #202020;
+    position: absolute;
+    top:110px;
+    right: 70px;
+
+}
+
+#box9 #pp1 {
+    display: inline-block;
+    width: 130px;
+    font-weight: 700;
+        font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    padding: 0;
+    margin-bottom: 5px;
+    position: absolute;
+    top:130px;
+    right: 189px;
+
+}
+
+#box9 #qq1 {
+
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #202020;
+    position: absolute;
+    top:130px;
+    right: 85px;
+
+}
+
+#box9 #rr1 {
+    display: inline-block;
+    width: 130px;
+    font-weight: 700;
+        font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    padding: 0;
+    margin-bottom: 5px;
+    position: absolute;
+    top:152px;
+    right: 188px;
+
+}
+
+#box9 #ss1 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #202020;
+    position: absolute;
+    top:152px;
+    right: 65px;
+
+}
+
+#box9 #tt1 {
+    display: inline-block;
+    width: 130px;
+    font-weight: 700;
+        font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+    padding: 0;
+    margin-bottom: 5px;
+     position: relative;
+    top:116px;
+    right: 114px;
+
+}
+
+#box9 #uu1 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    float: left;
+    color: #202020;
+    position: relative;
+    top:95px;
+    left:115px;
+}
+
+#box10 {
+    display: inline-block;
+    width: 348px;
+    height: 243px;
+    border: 1px solid #dae1e6;
+    position: relative;
+    bottom: -20px;
+    right: 1px;
+    border-top: hidden;
+    margin-top: -20px;
+
+}
+
+#box10 #fashion {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    color: #202020;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 9px;
+
+}
+
+#box10 #life {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    color: #202020;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 7px;
+
+}
+
+#box10 #beauty {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    color: #202020;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 3px;
+
+}
+
+#box10 #digital {
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    color: #03C75A;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 3px;
+    font-weight: 100px
+}
+
+#box10 #one {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    font-weight: 100px color:#202020;
+
+}
+
+#box10 #seven {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    font-weight: 100px;
+    color: #808080;
+    margin-left: 10px;
+
+}
+
+#box10 #boxa {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dae1e6;
+    position: relative;
+    left: 308px;
+    bottom: 166px;
+
+}
+
+#box10 #boxb {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dae1e6;
+    position: relative;
+    left: 242px;
+    bottom: 166px;
+
+}
+
+
+
+
+
+#box10 #boxc img {
+    width: 163.5px;
+    height: 163px;
+    position: relative;
+    left: 101px;
+    top: 26px;
+}
+
+#box10 #boxd img {
+    width: 163.5px;
+    height: 163px;
+    position: relative;
+    left: 10px;
+    top: -152px;
+}
+
+#box10 #love {
+    display: inline-block;
+    width: 163.5px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    right: 165px;
+    bottom: 135px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+
+}
+
+#box10 #sale {
+    display: inline-block;
+    width: 163.5px;
+    height: 18px;
+        font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 155px;
+    left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
